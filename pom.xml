@@ -23,6 +23,16 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
+	
+	<repositories>
+
+
+		<repository>
+			<id>jenkins</id>
+			<url>http://eclapld00049.tfayd.com:8081/artifactory/OTIS-Maven-Repo/</url>
+		</repository>
+
+	</repositories>
 
 	<dependencies>
 		<dependency>
