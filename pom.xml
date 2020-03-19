@@ -100,6 +100,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>archi</finalName> 
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -108,14 +109,7 @@
 			        <finalName>architecture</finalName>                   
 			    </configuration>
 			</plugin>
-			<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-jar-plugin</artifactId>
-    <version>2.3.2</version>
-    <configuration>
-        <finalName>myJar</finalName>                   
-    </configuration>
-</plugin>   
+			
 		</plugins>
 	</build>
 
