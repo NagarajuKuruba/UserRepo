@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>nit</groupId>
-	<artifactId>BookStore</artifactId>
-	<version>1.0.0</version>
+	<artifactId>Brand</artifactId>
+	<version>1.0.0-{version}</version>
 	<packaging>war</packaging>
 
 	<name>BookStore</name>
@@ -22,8 +22,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		
-    <jar.finalName>test</jar.finalName>
 
 	</properties>
 	
